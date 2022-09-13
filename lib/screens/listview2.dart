@@ -9,7 +9,7 @@ class ListViewScreen2 extends StatelessWidget {
     return  Scaffold(
       appBar: AppBar(
         title: const Text('Listview 1'),
-        backgroundColor: Colors.deepPurple[400],
+  
       ),
       body: ListView.separated(
         itemCount: options.length,

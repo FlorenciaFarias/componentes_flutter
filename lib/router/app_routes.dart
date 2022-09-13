@@ -29,7 +29,7 @@ class AppRoutes {
       route: 'Card', 
       icon: Icons.sim_card_rounded, 
       name: 'Cart', 
-      screen: const ListView1Screen()
+      screen: const CardScreen()
     ),
      MenuOption(
       route: 'alert', 
