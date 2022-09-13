@@ -18,7 +18,7 @@ class ListViewScreen2 extends StatelessWidget {
           trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.deepPurple),
           onTap: () {
             final game = options[index];
-            print(game);
+           
           },
         ),
         separatorBuilder: (_, __) => const Divider()
